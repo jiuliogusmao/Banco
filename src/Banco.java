@@ -66,7 +66,7 @@ public class Banco {
 		elementos.addAll(contas);
 		
 		for (ElementosDoBanco e: elementos) {
-			System.out.println(e.getElementosInfos());
+			System.out.println(e.getElementosInfo());
 		}
 		
 	}

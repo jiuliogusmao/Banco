@@ -122,9 +122,9 @@ public class Conta implements ElementosDoBanco{
 
 
 	@Override
-	public String getElementosInfos() {
+	public String getElementosInfo() {
 		// TODO Auto-generated method stub
-		return "Conta{" + "numero=" + numero + ", dataAbertura=" + dataAbertura + ", status=" + status + ", senha=" + senha + ", saldo=" + saldo + ", titular=" + titular + '}';
+		return "Conta{" + "numero=" + numero + ", dataAbertura=" + dataAbertura + ", status=" + status + ", senha=" + senha + ", saldo=" + saldo + ", titular=" + titular + "Movimentos= " + movimentos +'}';
 	}
     
 

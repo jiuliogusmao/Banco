@@ -48,10 +48,10 @@ public class ContaPoupanca extends Conta{
 
     }
 
-    public String getElementoInfo() {
+    public String getElementosInfo() {
         return "ContaPoupanca{" + " diaAniversario" + DiaAniversario + ", numero=" + numero + ", dataAbertura=" + dataAbertura
                 + ", status=" + status + ", senha=" + senha + ", saldo=" + saldo
-                + ", titular=" + titular + '}';
+                + ", titular=" + titular + "Movimentos= " + movimentos +'}';
 
     }
 	

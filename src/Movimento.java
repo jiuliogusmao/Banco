@@ -27,6 +27,11 @@ public class Movimento {
 	public void setValor(float valor) {
 		this.valor = valor;
 	}
+
+	@Override
+	public String toString() {
+		return "Movimento [tipoMovimento=" + tipoMovimento + ", valor=" + valor + "]";
+	}
 	
 	
 }

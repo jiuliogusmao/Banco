@@ -42,7 +42,7 @@ public class PessoaJuridica extends Pessoa implements ElementosDoBanco{
 		return "PessoaJuridica [cnpj=" + cnpj + ", cidade=" + cidade + ", estado=" + estado + "]";
 	}
 	@Override
-	public String getElementosInfos() {
+	public String getElementosInfo() {
 		// TODO Auto-generated method stub
 		return "PessoaJuridica [cnpj=" + cnpj + ", cidade=" + cidade + ", estado=" + estado + "]";
 	}

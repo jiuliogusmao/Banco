@@ -1,5 +1,5 @@
 
-public class ContaEspecial extends Conta{
+public class ContaEspecial extends Conta implements ElementosDoBanco{
 	
 	//atributo
 	private float limite;
@@ -46,10 +46,10 @@ public class ContaEspecial extends Conta{
 
     }
 
-    public String getElementoInfo() {
-        return "ContaEspecial{" + " limite=" + limite + ", numero=" + numero + ", dataAbertura=" + dataAbertura
+    public String getElementosInfo() {
+        return "ContaEspecial{"+ " limite=" + limite + ", numero=" + numero + ", dataAbertura=" + dataAbertura
                 + ", status=" + status + ", senha=" + senha + ", saldo=" + saldo
-                + ", titular=" + titular + '}';
+                + ", titular=" + titular + "Movimentos= " + movimentos +'}';
 
     }
 }

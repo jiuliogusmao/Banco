@@ -52,7 +52,7 @@ public class PessoaFisica extends Pessoa{
 	}
 
 	@Override
-	public String getElementosInfos() {
+	public String getElementosInfo() {
 		// TODO Auto-generated method stub
 		return "PessoaFisica [cpf=" + cpf + ", dataNascimento=" + dataNascimento + ", rg=" + rg + ", renda=" + renda
 				+ "]";
